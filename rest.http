@@ -3,3 +3,14 @@ GET http://localhost:3000/photos
 
 ### Create Action
 POST http://localhost:3000/photos.json
+Content-Type: application/json
+
+{
+  "name": "Martini",
+  "price": 100,
+  "description": "Splash into me, yeah!",
+  "image_url": "https://www.seriouseats.com/thmb/YEokZrhbn4Bfh3PU26RxabjdjL8=/450x0/filters:no_upscale():max_bytes(150000):strip_icc()/__opt__aboutcom__coeus__resources__content_migration__serious_eats__seriouseats.com__recipes__images__2016__03__20160321-filthy-martinis-vicky-wasik-2-2-d0bb3e55a82043b3b25131870d7dde44.jpg"
+
+
+
+}

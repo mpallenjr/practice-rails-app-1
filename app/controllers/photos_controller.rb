@@ -7,11 +7,10 @@ class PhotosController < ApplicationController
   def create
     create_photo = Photo.new(
       
-      name: "Happy Sun",
-      price: 55,
-      description: "bask in it's radiance",
-      image_url: "https://images.pexels.com/photos/87611/sun-fireball-solar-flare-sunlight-87611.jpeg?auto=compress&cs=tinysrgb&dpr=1&w=500"
-    
+      name: params[:name],
+      price: params[:price],
+      description: params[:description],
+      image_url: params[:image_url]
     
     )
     create_photo.save
