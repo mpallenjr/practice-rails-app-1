@@ -1,0 +1,2 @@
+### Index Action
+GET http://localhost:3000/photos
