@@ -1,2 +1,5 @@
 ### Index Action
 GET http://localhost:3000/photos
+
+### Create Action
+POST http://localhost:3000/photos.json
